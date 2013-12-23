@@ -12,10 +12,10 @@
         android:src="@drawable/bg_welcome" />
 
     <Button
-        android:id="@+id/begin"
+        android:id="@+id/i_agree"
         style="@style/ContinueButton"
         android:layout_marginBottom="30dp"
-        android:text="@string/begin" />
+        android:text="@string/i_agree" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -27,15 +27,16 @@
             style="@style/Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/welcome" />
+            android:text="@string/warning"/>
 
-        <ImageView style="@style/ModSeparator" />
+        <ImageView
+            style="@style/ModSeparator" />
 
         <TextView
-            android:id="@+id/welcome_text"
+            android:id="@+id/disclaimer_text"
             style="@style/Body"
-            android:paddingBottom="30dp"
-            android:text="@string/intro" />
-    </LinearLayout>
+            android:text="@string/disclaimer"
+            android:paddingBottom="30dp" />
 
+    </LinearLayout>
 </RelativeLayout>
